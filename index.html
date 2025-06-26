@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saloni Rawat - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f1f4f6;
+      color: #263238;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #004d40, #00796b);
+      color: white;
+      padding: 60px 20px 30px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    .gallery-grid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card.no-text {
+  box-shadow: none;
+  background: none;
+  padding: 0;
+}
+
+
+
+    h2 {
+      font-size: 1.8rem;
+      color: #004d40;
+      border-left: 5px solid #26a69a;
+      padding-left: 10px;
+      margin-bottom: 25px;
+    }
+
+    .contact p, ul li {
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: #00796b;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #cfd8dc;
+      font-size: 0.95rem;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      header img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="pic1.jpg" alt="Saloni Rawat">
+    <h1>Saloni Rawat</h1>
+    <p>Computer Science Student | AI Enthusiast | Developer</p>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Email:</strong> <a href="mailto:rawatsaloni880@gmail.com">rawatsaloni880@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+917818849551">+91 7818849551</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saloni-rawat-241939308" target="_blank">linkedin.com/in/saloni-rawat</a></p>
+  </section>
+
+  <section>
+  <h2>About Me</h2>
+  <p>
+    I’m <strong>Saloni Rawat</strong>, a Computer Science undergraduate from Graphic Era Hill University, Dehradun. I’m passionate about exploring new technologies, especially in the fields of artificial intelligence, software development, and secure systems.
+  </p>
+  <p>
+    With hands-on experience in Python, web development, and machine learning, I enjoy building real-world projects that solve practical problems. My goal is to become a skilled software developer who contributes to meaningful and innovative solutions.
+  </p>
+  <p>
+    I'm a curious learner, a creative thinker, and a team player who believes in continuous growth and staying updated with emerging tech trends. Whether it’s developing a chatbot, a compiler, or a secure sandbox, I give my best in every challenge I take up.
+  </p>
+  </section>
+
+  <section>
+  <h2>PESC Lab Summary</h2>
+  <p>The PESC (Professional Enhancement and Soft Skills Communication) Lab was conducted under the guidance of <strong>Dr. Anuva Ma’am</strong> across multiple sessions during the semester. The lab focused on improving communication, confidence, and overall personality development of students through engaging, interactive, and real-world-based activities.</p>
+  <br><br>
+
+  <h3>Sessions Held On:</h3>
+  <ul>
+    <li>13/02/2025</li>
+    <li>20/02/2025</li>
+    <li>27/02/2025</li>
+    <li>20/03/2025</li>
+    <li>03/04/2025</li>
+    <li>17/04/2025</li>
+    <li>24/04/2025</li>
+    <li>08/05/2025</li>
+    <li>15/05/2025</li>
+    <li>22/05/2025</li>
+  </ul><br><br>
+
+  <h3>Key Activities Covered:</h3>
+  <ul>
+    <li>Mock Interviews and Resume Review</li>
+    <li>Group Discussions and Debate Rounds</li>
+    <li>Team Collaboration Tasks</li>
+    <li>Creative Thinking and Problem Solving Exercises</li>
+    <li>Personality Grooming and Body Language Tips</li>
+    <li>Fun-based Communication Games (Whisper Challenge, Flapping Challenge, etc.)</li>
+  </ul><br><br>
+
+  <p>The lab sessions were not only educational but also enjoyable, with the last 10 minutes of each session often dedicated to fun team activities that helped build confidence, ease communication barriers, and improve interpersonal bonding.</p>
+
+  <p>Overall, the PESC Lab played a significant role in preparing students for real-world scenarios like interviews, presentations, and teamwork situations. It was a valuable and enriching experience for all participants.</p>
+  </section>
+
+  <section>
+  <h2>Feedback</h2>
+  <ul>
+    <li>Dr. Anuva Ma’am’s sessions were very engaging, fun, and easy to understand.</li>
+    <li>Ma’am was very supportive and friendly throughout the semester. She was always approachable, patient, and genuinely cared about each student's growth. Her way of explaining concepts was clear and motivating, and she made sure to keep the atmosphere positive and encouraging in every session.</li>
+    <li>The fun activities like whisper, hearing, meditation, paper challenges made classes more interactive and enjoyable.</li>
+    <li>Mock interviews, group discussions, and real-life roleplays improved my communication and thinking skills.</li>
+    <li>Ma’am always made sure that everyone participated and learned at their own pace.</li>
+    <li>Her punctuality and positive attitude kept the energy high in every session.</li>
+    <li>Overall, the PESC Lab was a meaningful and enjoyable experience that helped me grow personally and professionally.</li>
+  </ul>
+  <p><strong>Thank you, Anuva Ma’am</strong>, for making this lab so memorable and impactful!</p>
+  </section>
+
+    <section>
+  <h2>Project Gallery</h2>
+  <div class="card-container gallery-grid">
+    <div class="card no-text">
+      <img src="pic2.jpg" alt="Chatbot Project">
+      <img src="pic3.jpg" alt="Speech-to-Text GUI">
+      <img src="pic4.jpg" alt="Fashion Recommender">
+      <img src="pic5.jpg" alt="Mini Compiler">
+      <img src="pic6.jpg" alt="AI Sandbox">
+      <img src="pic7.jpg" alt="PESC Lab Activities">
+    </div>
+  </div>
+  </section>
+
+  <section>
+  <h2>Career Goals / Future Vision</h2>
+  <p>
+    My goal is to build a strong career in the field of software development and artificial intelligence. I aim to work on innovative, real-world projects that make technology more accessible, secure, and impactful.
+  </p>
+  <p>
+    In the coming years, I aspire to become a skilled full-stack developer and AI engineer, contributing to the development of smart systems that solve real-life problems. I also want to explore fields like cybersecurity, compiler design, and cloud computing.
+  </p>
+  <p>
+    I strongly believe in continuous learning, practical experience, and contributing to open-source communities. With each project and opportunity, I hope to grow not only as a professional but also as a responsible and creative problem solver.
+  </p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, C, C++, HTML, CSS, JavaScript, PHP, SQL</li>
+      <li><strong>Tools:</strong> Flask, Tkinter, TensorFlow, Git, Bootstrap</li>
+      <li><strong>Databases:</strong> MySQL, SQLite</li>
+      <li><strong>Version Control:</strong> Git & GitHub</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>Strengths</h2>
+    <ul>
+      <li>Quick Learner & Adaptable</li>
+      <li>Strong Communication Skills</li>
+      <li>Team Collaboration & Leadership</li>
+      <li>Problem-solving & Logical Thinking</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Hobbies & Interests</h2>
+    <ul>
+      <li>Reading tech blogs and AI research</li>
+      <li>Drawing and digital art</li>
+      <li>Listening to music</li>
+      <li>Exploring open-source projects</li>
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Profile Summary</h2>
+    <p>A passionate and dedicated Computer Science undergraduate with a strong foundation in programming, problem-solving, and AI technologies. Skilled in both frontend and backend development with hands-on experience in building real-world projects. Always eager to learn and contribute to impactful software solutions.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Saloni Rawat. 
+  </footer>
+
+</body>
+</html>
